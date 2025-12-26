@@ -3,7 +3,7 @@ from datetime import datetime
 from flask import Flask, render_template, request, flash, redirect, url_for, send_from_directory
 from flask_mail import Mail, Message
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='../templates', static_folder='../static')
 app.secret_key = 'laziness_hub_ultra_secret'
 
 # Official Mail Server Configuration
