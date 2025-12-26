@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block sensitive mail routes if any
+Disallow: /send_mail
+
+# Host and Sitemap location
+Sitemap: https://westniles.com/sitemap.xml
+Host: https://westniles.com
+
+# Mbale Prince Behind
+# From the laziness hub

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Software Development Company in West Nile | Westniles.com</title>
+    <meta name="description" content="Westniles.com - Leading software development, computer repair, and graphics hub in Arua City, West Nile. Located at Laziness Hub.">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.svg') }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Westniles Software Hub",
+      "email": "info@westniles.com",
+      "telephone": "+256775631746",
+      "url": "https://westniles.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Laziness Hub",
+        "addressLocality": "Arua City",
+        "addressRegion": "West Nile",
+        "addressCountry": "UG"
+      }
+    }
+    </script>
+
+    <style>
+        * { border-radius: 0 !important; }
+        body { background-color: #050505; color: #e5e5e5; font-family: 'Inter', ui-monospace, SFMono-Regular, Menlo, monospace; }
+        .text-red { color: #FF0000; }
+        .bg-red { background-color: #FF0000; }
+        .border-red { border-color: #FF0000; }
+        .glass { background: rgba(0,0,0,0.8); backdrop-filter: blur(10px); }
+        #mobile-menu.active { display: flex; }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <nav class="fixed w-full z-[100] border-b border-zinc-900 glass">
+        <div class="max-w-7xl mx-auto px-6 h-24 flex justify-between items-center">
+            <div class="flex items-center gap-4">
+                <img src="{{ url_for('static', filename='favicon.svg') }}" class="w-10 h-10">
+                <div class="flex flex-col">
+                    <span class="font-black text-2xl tracking-tighter uppercase leading-none">WESTNILES<span class="text-red">.COM</span></span>
+                    <span class="text-[9px] text-gray-500 tracking-[0.3em] mt-1 uppercase">Laziness Hub • Arua City</span>
+                </div>
+            </div>
+
+            <div class="hidden lg:flex gap-8 text-[10px] font-bold uppercase tracking-widest text-zinc-500">
+                <a href="mailto:info@westniles.com" class="hover:text-red transition">info@westniles.com</a>
+                <a href="https://wa.me/256775631746" class="hover:text-red transition">WA: +256775631746</a>
+            </div>
+
+            <button onclick="toggleMenu()" class="flex flex-col gap-2 p-2">
+                <div id="b1" class="w-8 h-0.5 bg-white transition-all"></div>
+                <div id="b2" class="w-8 h-0.5 bg-white transition-all"></div>
+                <div id="b3" class="w-8 h-0.5 bg-white transition-all"></div>
+            </button>
+        </div>
+    </nav>
+
+    <div id="mobile-menu" class="fixed inset-0 bg-black z-[90] flex-col items-center justify-center gap-8 hidden">
+        <a href="#about" onclick="toggleMenu()" class="text-5xl font-black uppercase hover:text-red">About</a>
+        <a href="#services" onclick="toggleMenu()" class="text-5xl font-black uppercase hover:text-red">Services</a>
+        <a href="#apps" onclick="toggleMenu()" class="text-5xl font-black uppercase hover:text-red">Software</a>
+        <a href="#contact" onclick="toggleMenu()" class="text-5xl font-black uppercase hover:text-red">Contact</a>
+    </div>
+
+    <section class="pt-64 pb-32 px-6 text-center">
+        <h1 class="text-6xl md:text-8xl font-black uppercase tracking-tighter leading-none mb-8">
+            Engineering <br><span class="text-red">The Future.</span>
+        </h1>
+        <p class="max-w-2xl mx-auto text-zinc-500 text-lg mb-12 uppercase tracking-widest">Arua's Premier Technology & Computing Hub</p>
+        <div class="flex flex-wrap justify-center gap-6">
+            <a href="#contact" class="bg-red text-white px-12 py-5 font-black uppercase tracking-widest hover:bg-white hover:text-red transition">Get in Touch</a>
+            <a href="https://wa.me/256775631746" class="border border-zinc-800 px-12 py-5 font-black uppercase tracking-widest hover:border-red transition">WhatsApp Support</a>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 border-y border-zinc-900 bg-zinc-950 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-px bg-zinc-900 border border-zinc-900">
+            <div class="bg-black p-12">
+                <h3 class="text-red font-black text-xl mb-4 uppercase">Software Dev</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">Android & Desktop application development, UI/UX design, and open-source contributions.</p>
+            </div>
+            <div class="bg-black p-12">
+                <h3 class="text-red font-black text-xl mb-4 uppercase">Mobile Computing</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">Computer repair, maintenance, and software installation for organizations & individuals.</p>
+            </div>
+            <div class="bg-black p-12">
+                <h3 class="text-red font-black text-xl mb-4 uppercase">Sales & Supply</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">High-quality computers, original accessories, and hardware components delivered in West Nile.</p>
+            </div>
+            <div class="bg-black p-12">
+                <h3 class="text-red font-black text-xl mb-4 uppercase">Graphics Design</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">Professional brand identity, digital illustrations, and visual marketing assets.</p>
+            </div>
+            <div class="bg-black p-12">
+                <h3 class="text-red font-black text-xl mb-4 uppercase">IT Consultancy</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">System audits and infrastructure setup for companies and NGOs across Arua City.</p>
+            </div>
+            <div class="bg-black p-12">
+                <h3 class="text-red font-black text-xl mb-4 uppercase">Open Source</h3>
+                <p class="text-zinc-500 text-sm leading-relaxed">Check our repositories on GitHub for the latest transparent code releases.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="apps" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="mb-16">
+            <h2 class="text-4xl font-black uppercase italic">Engineered at <span class="text-red underline">Laziness Hub</span></h2>
+            <p class="text-zinc-500 mt-2 uppercase tracking-widest text-xs">Open Source Transparency • Direct Deployment</p>
+        </div>
+    
+        <div class="grid md:grid-cols-2 gap-px bg-zinc-900 border border-zinc-900">
+            
+            <div class="bg-black p-10 hover:bg-zinc-950 transition-all group">
+                <div class="flex justify-between items-start mb-6">
+                    <h4 class="text-3xl font-black uppercase tracking-tighter">Prince Share</h4>
+                    <span class="text-[10px] bg-zinc-800 px-2 py-1 text-zinc-400 font-bold uppercase">v2.1 Stable</span>
+                </div>
+                <p class="text-zinc-500 mb-10 leading-relaxed">
+                    A high-speed wireless file transfer system designed for the West Nile tech ecosystem. Optimized for Android-to-PC communication without data costs.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="{{ url_for('static', filename='executables/prince_share.apk') }}" 
+                       class="bg-red text-white px-8 py-4 font-black uppercase tracking-widest text-center hover:bg-white hover:text-red transition">
+                        Download APK
+                    </a>
+                    <a href="https://github.com/mbaleprince/Prince-Share" target="_blank" 
+                       class="border border-zinc-700 text-white px-8 py-4 font-black uppercase tracking-widest text-center hover:border-red hover:text-red transition">
+                        Desktop
+                    </a>
+                </div>
+            </div>
+    
+            <div class="bg-black p-10 hover:bg-zinc-950 transition-all group">
+                <div class="flex justify-between items-start mb-6">
+                    <h4 class="text-3xl font-black uppercase tracking-tighter">Lugbara Dict</h4>
+                    <span class="text-[10px] bg-zinc-800 px-2 py-1 text-zinc-400 font-bold uppercase">Open Data</span>
+                </div>
+                <p class="text-zinc-500 mb-10 leading-relaxed">
+                    Digitizing the cultural heritage of West Nile. A comprehensive offline linguistic tool built for researchers and native speakers alike.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="{{ url_for('static', filename='executables/dictionary.apk') }}" 
+                       class="bg-red text-white px-8 py-4 font-black uppercase tracking-widest text-center hover:bg-white hover:text-red transition">
+                        Download APK
+                    </a>
+                    <a href="https://github.com/mbaleprince/Dictionary" target="_blank" 
+                       class="border border-zinc-700 text-white px-8 py-4 font-black uppercase tracking-widest text-center hover:border-red hover:text-red transition">
+                        Desktop
+                    </a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section id="contact" class="bg-black pt-32 pb-12 px-6 border-t border-zinc-900">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 mb-32">
+            <div>
+                <h2 class="text-6xl font-black uppercase leading-none mb-10">Start a <br><span class="text-red">Project.</span></h2>
+                <div class="space-y-6 text-xl font-bold italic">
+                    <p><a href="mailto:info@westniles.com" class="hover:text-red">info@westniles.com</a></p>
+                    <p><a href="https://wa.me/256775631746" class="hover:text-red">+256 775 631 746</a></p>
+                    <p class="text-zinc-600">Arua City, West Nile, Uganda</p>
+                </div>
+            </div>
+            <form action="/" method="POST" class="grid gap-4">
+                <input type="text" name="name" placeholder="Full Name" class="bg-zinc-950 p-6 border-none outline-none focus:ring-1 focus:ring-red" required>
+                <input type="email" name="email" placeholder="Email" class="bg-zinc-950 p-6 border-none outline-none focus:ring-1 focus:ring-red" required>
+                <textarea name="message" rows="4" placeholder="How can we assist you?" class="bg-zinc-950 p-6 border-none outline-none focus:ring-1 focus:ring-red" required></textarea>
+                <button type="submit" class="bg-red text-white p-6 font-black uppercase tracking-widest">Initiate Protocol</button>
+            </form>
+        </div>
+        <footer class="text-center text-[10px] text-zinc-700 tracking-[0.5em] uppercase border-t border-zinc-900 pt-12">
+            &copy; {{ year }} WESTNILES.COM | DESIGNED BY MBALE PRINCE @ LAZINESS HUB
+        </footer>
+    </section>
+
+    <script>
+        function toggleMenu() {
+            const m = document.getElementById('mobile-menu');
+            const b1 = document.getElementById('b1'), b2 = document.getElementById('b2'), b3 = document.getElementById('b3');
+            if(m.classList.contains('hidden')){
+                m.classList.remove('hidden'); m.classList.add('flex');
+                b1.style.transform = "translateY(10px) rotate(45deg)"; b2.style.opacity = "0"; b3.style.transform = "translateY(-10px) rotate(-45deg)";
+                document.body.style.overflow = "hidden";
+            } else {
+                m.classList.add('hidden'); m.classList.remove('flex');
+                b1.style.transform = "none"; b2.style.opacity = "1"; b3.style.transform = "none";
+                document.body.style.overflow = "auto";
+            }
+        }
+    </script>
+</body>
+</html>
